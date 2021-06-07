@@ -1,0 +1,16 @@
+PODS:
+  - Identify24 (0.1.0)
+
+DEPENDENCIES:
+  - Identify24 (from `../`)
+
+EXTERNAL SOURCES:
+  Identify24:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Identify24: d58f9e4246bbef3391beff18620d352d5b79f4b7
+
+PODFILE CHECKSUM: 1b1f668998eff15389f24a90ab39554b8352dc73
+
+COCOAPODS: 1.10.1

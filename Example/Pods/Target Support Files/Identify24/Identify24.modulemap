@@ -1,0 +1,6 @@
+framework module Identify24 {
+  umbrella header "Identify24-umbrella.h"
+
+  export *
+  module * { export * }
+}

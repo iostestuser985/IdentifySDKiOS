@@ -1,0 +1,1066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2660698357DCA7CE4F4825FABA5E0185 /* Pods-Identify24_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95462E0355388FF9B57A6D836F90E468 /* Pods-Identify24_Tests-dummy.m */; };
+		38C9088B0983B059709693C0CA72F80C /* Pods-Identify24_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6F5D5E31861FC17A38140D65608F6B /* Pods-Identify24_Example-dummy.m */; };
+		478DAF071CA6F537DFC293659F290114 /* Identify24-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B28BAE6DD3F75FBF6D6E39B6C35B4FB1 /* Identify24-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48053BBF266E60EA00CCE8A3 /* OpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48053B88266E60EA00CCE8A3 /* OpenSSL.framework */; platformFilter = ios; };
+		48053BC0266E60EA00CCE8A3 /* NFCPassportReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48053B89266E60EA00CCE8A3 /* NFCPassportReader.framework */; platformFilter = ios; };
+		48053BC1266E60EA00CCE8A3 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48053B8A266E60EA00CCE8A3 /* WebRTC.framework */; };
+		48053BC2266E60EA00CCE8A3 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48053B8B266E60EA00CCE8A3 /* Starscream.framework */; platformFilter = ios; };
+		48053BC3266E60EA00CCE8A3 /* IdentifySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 48053B8D266E60EA00CCE8A3 /* IdentifySDK.h */; };
+		48053BC4266E60EA00CCE8A3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053B8F266E60EA00CCE8A3 /* Constant.swift */; };
+		48053BC5266E60EA00CCE8A3 /* SDKClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053B90266E60EA00CCE8A3 /* SDKClasses.swift */; };
+		48053BC6266E60EA00CCE8A3 /* SDKEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053B92266E60EA00CCE8A3 /* SDKEnums.swift */; };
+		48053BC7266E60EA00CCE8A3 /* Identify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053B93266E60EA00CCE8A3 /* Identify.swift */; };
+		48053BC8266E60EA00CCE8A3 /* NetworkRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053B96266E60EA00CCE8A3 /* NetworkRequests.swift */; };
+		48053BC9266E60EA00CCE8A3 /* PassportUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053B99266E60EA00CCE8A3 /* PassportUtil.swift */; };
+		48053BCA266E60EA00CCE8A3 /* PassportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053B9B266E60EA00CCE8A3 /* PassportModel.swift */; };
+		48053BCB266E60EA00CCE8A3 /* SocketResponser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053B9D266E60EA00CCE8A3 /* SocketResponser.swift */; };
+		48053BCC266E60EA00CCE8A3 /* CameraFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053B9E266E60EA00CCE8A3 /* CameraFilter.swift */; };
+		48053BCD266E60EA00CCE8A3 /* RTCCustomFrameCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053B9F266E60EA00CCE8A3 /* RTCCustomFrameCapture.swift */; };
+		48053BCE266E60EA00CCE8A3 /* SignalingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053BA0266E60EA00CCE8A3 /* SignalingMessage.swift */; };
+		48053BCF266E60EA00CCE8A3 /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053BA1266E60EA00CCE8A3 /* WebRTCClient.swift */; };
+		48053BD0266E60EA00CCE8A3 /* CameraSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053BA2266E60EA00CCE8A3 /* CameraSession.swift */; };
+		48053BD1266E60EA00CCE8A3 /* NunitoSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48053BA4266E60EA00CCE8A3 /* NunitoSans-LightItalic.ttf */; };
+		48053BD2266E60EA00CCE8A3 /* NunitoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48053BA5266E60EA00CCE8A3 /* NunitoSans-BoldItalic.ttf */; };
+		48053BD3266E60EA00CCE8A3 /* NunitoSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48053BA6266E60EA00CCE8A3 /* NunitoSans-ExtraLight.ttf */; };
+		48053BD4266E60EA00CCE8A3 /* NunitoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48053BA7266E60EA00CCE8A3 /* NunitoSans-Light.ttf */; };
+		48053BD5266E60EA00CCE8A3 /* NunitoSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48053BA8266E60EA00CCE8A3 /* NunitoSans-BlackItalic.ttf */; };
+		48053BD6266E60EA00CCE8A3 /* NunitoSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48053BA9266E60EA00CCE8A3 /* NunitoSans-ExtraBold.ttf */; };
+		48053BD7266E60EA00CCE8A3 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48053BAA266E60EA00CCE8A3 /* NunitoSans-Regular.ttf */; };
+		48053BD8266E60EA00CCE8A3 /* NunitoSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48053BAB266E60EA00CCE8A3 /* NunitoSans-SemiBoldItalic.ttf */; };
+		48053BD9266E60EA00CCE8A3 /* NunitoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48053BAC266E60EA00CCE8A3 /* NunitoSans-Italic.ttf */; };
+		48053BDA266E60EA00CCE8A3 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48053BAD266E60EA00CCE8A3 /* NunitoSans-Bold.ttf */; };
+		48053BDB266E60EA00CCE8A3 /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48053BAE266E60EA00CCE8A3 /* NunitoSans-SemiBold.ttf */; };
+		48053BDC266E60EA00CCE8A3 /* NunitoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48053BAF266E60EA00CCE8A3 /* NunitoSans-Black.ttf */; };
+		48053BDD266E60EA00CCE8A3 /* NunitoSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48053BB0266E60EA00CCE8A3 /* NunitoSans-ExtraBoldItalic.ttf */; };
+		48053BDE266E60EA00CCE8A3 /* nexa-slab-xbold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48053BB1266E60EA00CCE8A3 /* nexa-slab-xbold.otf */; };
+		48053BDF266E60EA00CCE8A3 /* NunitoSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48053BB2266E60EA00CCE8A3 /* NunitoSans-ExtraLightItalic.ttf */; };
+		48053BE0266E60EA00CCE8A3 /* SDKProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053BB4266E60EA00CCE8A3 /* SDKProtocols.swift */; };
+		48053BE1266E60EA00CCE8A3 /* SDKLanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053BB6266E60EA00CCE8A3 /* SDKLanguageManager.swift */; };
+		48053BE2266E60EA00CCE8A3 /* SDKColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053BB7266E60EA00CCE8A3 /* SDKColorManager.swift */; };
+		48053BE3266E60EA00CCE8A3 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053BB8266E60EA00CCE8A3 /* AlertManager.swift */; };
+		48053BE4266E60EA00CCE8A3 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053BBA266E60EA00CCE8A3 /* UIView+.swift */; };
+		48053BE5266E60EA00CCE8A3 /* GradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48053BBB266E60EA00CCE8A3 /* GradientLabel.swift */; };
+		48053BE6266E60EA00CCE8A3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48053BBC266E60EA00CCE8A3 /* Alamofire.framework */; platformFilter = ios; };
+		48053BE8266E60EA00CCE8A3 /* Identify24iOSSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 48053BBE266E60EA00CCE8A3 /* Identify24iOSSDK.h */; };
+		502ECB855F281E97EE7BBDA7B9DBF1C2 /* Pods-Identify24_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1168530C49C0A4204A4A003A64E48899 /* Pods-Identify24_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74822C8B9FCE90BD0B7B7C953530DE16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A5551ACD23EA2A05153C777F9BAC2D72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AEE9ED7415284345F8F148A226EF348C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D056DA0C2F2BC7F32166DA725B978969 /* Identify24-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE4F0A1F5C5B46A03D2740377C1DD6C /* Identify24-dummy.m */; };
+		D1F7343E81E2BA664BFD111E7C32FEEA /* Pods-Identify24_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 624CED79147CBA63BEB6095B5525F9E3 /* Pods-Identify24_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		377CA701F573D862E2E0B0359749C25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B468676AF46E2C5BE579CCADB9D7B368;
+			remoteInfo = "Pods-Identify24_Example";
+		};
+		AA2624B8C50FB099775C5AFDD2B7965A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D19B64F617FF8F9B2DD19CA593ABD9;
+			remoteInfo = Identify24;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02EF8C79152C7847DB732B465F04B392 /* Identify24.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Identify24.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0655337FBD2F546F64FB7ECB823E7AB6 /* Pods-Identify24_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Identify24_Example-Info.plist"; sourceTree = "<group>"; };
+		110DA8113870705103987C5D9A773219 /* Pods-Identify24_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Identify24_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1168530C49C0A4204A4A003A64E48899 /* Pods-Identify24_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Identify24_Example-umbrella.h"; sourceTree = "<group>"; };
+		125B93EBBBEC11DFC83018289E43806E /* Identify24-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Identify24-Info.plist"; sourceTree = "<group>"; };
+		18A74947CA524E92D091A37DCECCA66B /* Pods-Identify24_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Identify24_Tests.modulemap"; sourceTree = "<group>"; };
+		1D3D26755892AFE6CF50DF1C2B8AE8EB /* Pods-Identify24_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Identify24_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		393E68657B92208F00E8267DEAC56624 /* Pods-Identify24_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Identify24_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48053B88266E60EA00CCE8A3 /* OpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenSSL.framework; sourceTree = "<group>"; };
+		48053B89266E60EA00CCE8A3 /* NFCPassportReader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NFCPassportReader.framework; sourceTree = "<group>"; };
+		48053B8A266E60EA00CCE8A3 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+		48053B8B266E60EA00CCE8A3 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Starscream.framework; sourceTree = "<group>"; };
+		48053B8D266E60EA00CCE8A3 /* IdentifySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdentifySDK.h; sourceTree = "<group>"; };
+		48053B8F266E60EA00CCE8A3 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		48053B90266E60EA00CCE8A3 /* SDKClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKClasses.swift; sourceTree = "<group>"; };
+		48053B92266E60EA00CCE8A3 /* SDKEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKEnums.swift; sourceTree = "<group>"; };
+		48053B93266E60EA00CCE8A3 /* Identify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identify.swift; sourceTree = "<group>"; };
+		48053B96266E60EA00CCE8A3 /* NetworkRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequests.swift; sourceTree = "<group>"; };
+		48053B99266E60EA00CCE8A3 /* PassportUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportUtil.swift; sourceTree = "<group>"; };
+		48053B9B266E60EA00CCE8A3 /* PassportModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportModel.swift; sourceTree = "<group>"; };
+		48053B9D266E60EA00CCE8A3 /* SocketResponser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketResponser.swift; sourceTree = "<group>"; };
+		48053B9E266E60EA00CCE8A3 /* CameraFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraFilter.swift; sourceTree = "<group>"; };
+		48053B9F266E60EA00CCE8A3 /* RTCCustomFrameCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCCustomFrameCapture.swift; sourceTree = "<group>"; };
+		48053BA0266E60EA00CCE8A3 /* SignalingMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalingMessage.swift; sourceTree = "<group>"; };
+		48053BA1266E60EA00CCE8A3 /* WebRTCClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTCClient.swift; sourceTree = "<group>"; };
+		48053BA2266E60EA00CCE8A3 /* CameraSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraSession.swift; sourceTree = "<group>"; };
+		48053BA4266E60EA00CCE8A3 /* NunitoSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		48053BA5266E60EA00CCE8A3 /* NunitoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		48053BA6266E60EA00CCE8A3 /* NunitoSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		48053BA7266E60EA00CCE8A3 /* NunitoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Light.ttf"; sourceTree = "<group>"; };
+		48053BA8266E60EA00CCE8A3 /* NunitoSans-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		48053BA9266E60EA00CCE8A3 /* NunitoSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		48053BAA266E60EA00CCE8A3 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		48053BAB266E60EA00CCE8A3 /* NunitoSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		48053BAC266E60EA00CCE8A3 /* NunitoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Italic.ttf"; sourceTree = "<group>"; };
+		48053BAD266E60EA00CCE8A3 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		48053BAE266E60EA00CCE8A3 /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		48053BAF266E60EA00CCE8A3 /* NunitoSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Black.ttf"; sourceTree = "<group>"; };
+		48053BB0266E60EA00CCE8A3 /* NunitoSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		48053BB1266E60EA00CCE8A3 /* nexa-slab-xbold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nexa-slab-xbold.otf"; sourceTree = "<group>"; };
+		48053BB2266E60EA00CCE8A3 /* NunitoSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		48053BB4266E60EA00CCE8A3 /* SDKProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKProtocols.swift; sourceTree = "<group>"; };
+		48053BB6266E60EA00CCE8A3 /* SDKLanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKLanguageManager.swift; sourceTree = "<group>"; };
+		48053BB7266E60EA00CCE8A3 /* SDKColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKColorManager.swift; sourceTree = "<group>"; };
+		48053BB8266E60EA00CCE8A3 /* AlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		48053BBA266E60EA00CCE8A3 /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		48053BBB266E60EA00CCE8A3 /* GradientLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientLabel.swift; sourceTree = "<group>"; };
+		48053BBC266E60EA00CCE8A3 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		48053BBE266E60EA00CCE8A3 /* Identify24iOSSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Identify24iOSSDK.h; sourceTree = "<group>"; };
+		4C2EFFB4AE64D2676A8207B8DC808B86 /* Pods-Identify24_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Identify24_Example.release.xcconfig"; sourceTree = "<group>"; };
+		624CED79147CBA63BEB6095B5525F9E3 /* Pods-Identify24_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Identify24_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7299996150D98D2ADA37776503DD5C22 /* Identify24.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Identify24.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75EAF0B1ED371D531764C1313DF8EF73 /* Pods-Identify24_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Identify24_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		78653510EF4908804343850411883861 /* Identify24-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Identify24-prefix.pch"; sourceTree = "<group>"; };
+		7FFE6E0810522B3FD180B6EB85F88FBB /* Pods_Identify24_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Identify24_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8548EA077E28498AC5321D23F9D8340C /* Pods-Identify24_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Identify24_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8FE4F0A1F5C5B46A03D2740377C1DD6C /* Identify24-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Identify24-dummy.m"; sourceTree = "<group>"; };
+		95462E0355388FF9B57A6D836F90E468 /* Pods-Identify24_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Identify24_Tests-dummy.m"; sourceTree = "<group>"; };
+		9A6F5D5E31861FC17A38140D65608F6B /* Pods-Identify24_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Identify24_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A103AA7CB1323502F743D8FFEE01A3B3 /* Pods_Identify24_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Identify24_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A682A634283114C118C85328C609B1A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AB0266906F77A7102014C9ED0666ACA1 /* Pods-Identify24_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Identify24_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AB8FA7560ABE9DDFD87C01EC90C970D2 /* Identify24.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Identify24.release.xcconfig; sourceTree = "<group>"; };
+		AD7A7FDE894F7C3B1DF15B0FE237D102 /* Identify24.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Identify24.modulemap; sourceTree = "<group>"; };
+		B28BAE6DD3F75FBF6D6E39B6C35B4FB1 /* Identify24-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Identify24-umbrella.h"; sourceTree = "<group>"; };
+		BB6CAC23D753133FFC3C7953428F6CEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BE1CA794BC5D52AFC116481E895415AB /* Pods-Identify24_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Identify24_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C185C63F0CAA48A47E86DE43C336BB4C /* Pods-Identify24_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Identify24_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4FB53AB6658938EDBB385EE00413E09 /* Pods-Identify24_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Identify24_Example.modulemap"; sourceTree = "<group>"; };
+		C7CD9F4C78F48434F4626333F3C9335B /* Identify24.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Identify24.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CD1D71714F7F403C0175CFCA21560501 /* Pods-Identify24_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Identify24_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41CD9422FC00E903B3E2AB313218B9B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48053BC0266E60EA00CCE8A3 /* NFCPassportReader.framework in Frameworks */,
+				48053BE6266E60EA00CCE8A3 /* Alamofire.framework in Frameworks */,
+				74822C8B9FCE90BD0B7B7C953530DE16 /* Foundation.framework in Frameworks */,
+				48053BBF266E60EA00CCE8A3 /* OpenSSL.framework in Frameworks */,
+				48053BC2266E60EA00CCE8A3 /* Starscream.framework in Frameworks */,
+				48053BC1266E60EA00CCE8A3 /* WebRTC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430FE07D4A24E97B1A21537C6694D1EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5551ACD23EA2A05153C777F9BAC2D72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFEE8D22FF6A26C063EF7F819D7FD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE9ED7415284345F8F148A226EF348C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48053B87266E60EA00CCE8A3 /* Identify24iOSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				48053B88266E60EA00CCE8A3 /* OpenSSL.framework */,
+				48053B89266E60EA00CCE8A3 /* NFCPassportReader.framework */,
+				48053B8A266E60EA00CCE8A3 /* WebRTC.framework */,
+				48053B8B266E60EA00CCE8A3 /* Starscream.framework */,
+				48053B8C266E60EA00CCE8A3 /* sdk */,
+				48053BBC266E60EA00CCE8A3 /* Alamofire.framework */,
+				48053BBE266E60EA00CCE8A3 /* Identify24iOSSDK.h */,
+			);
+			path = Identify24iOSSDK;
+			sourceTree = "<group>";
+		};
+		48053B8C266E60EA00CCE8A3 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				48053B8D266E60EA00CCE8A3 /* IdentifySDK.h */,
+				48053B8E266E60EA00CCE8A3 /* Classes */,
+				48053B91266E60EA00CCE8A3 /* Enums */,
+				48053B93266E60EA00CCE8A3 /* Identify.swift */,
+				48053B94266E60EA00CCE8A3 /* import groups */,
+				48053BA3266E60EA00CCE8A3 /* Fonts */,
+				48053BB3266E60EA00CCE8A3 /* Protocols */,
+				48053BB5266E60EA00CCE8A3 /* Base */,
+			);
+			path = sdk;
+			sourceTree = "<group>";
+		};
+		48053B8E266E60EA00CCE8A3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				48053B8F266E60EA00CCE8A3 /* Constant.swift */,
+				48053B90266E60EA00CCE8A3 /* SDKClasses.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		48053B91266E60EA00CCE8A3 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				48053B92266E60EA00CCE8A3 /* SDKEnums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		48053B94266E60EA00CCE8A3 /* import groups */ = {
+			isa = PBXGroup;
+			children = (
+				48053B95266E60EA00CCE8A3 /* Network */,
+				48053B97266E60EA00CCE8A3 /* nfc */,
+				48053B9C266E60EA00CCE8A3 /* WebRTC */,
+				48053BA2266E60EA00CCE8A3 /* CameraSession.swift */,
+			);
+			path = "import groups";
+			sourceTree = "<group>";
+		};
+		48053B95266E60EA00CCE8A3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				48053B96266E60EA00CCE8A3 /* NetworkRequests.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		48053B97266E60EA00CCE8A3 /* nfc */ = {
+			isa = PBXGroup;
+			children = (
+				48053B98266E60EA00CCE8A3 /* Util */,
+				48053B9A266E60EA00CCE8A3 /* Model */,
+			);
+			path = nfc;
+			sourceTree = "<group>";
+		};
+		48053B98266E60EA00CCE8A3 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				48053B99266E60EA00CCE8A3 /* PassportUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		48053B9A266E60EA00CCE8A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48053B9B266E60EA00CCE8A3 /* PassportModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48053B9C266E60EA00CCE8A3 /* WebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				48053B9D266E60EA00CCE8A3 /* SocketResponser.swift */,
+				48053B9E266E60EA00CCE8A3 /* CameraFilter.swift */,
+				48053B9F266E60EA00CCE8A3 /* RTCCustomFrameCapture.swift */,
+				48053BA0266E60EA00CCE8A3 /* SignalingMessage.swift */,
+				48053BA1266E60EA00CCE8A3 /* WebRTCClient.swift */,
+			);
+			path = WebRTC;
+			sourceTree = "<group>";
+		};
+		48053BA3266E60EA00CCE8A3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				48053BA4266E60EA00CCE8A3 /* NunitoSans-LightItalic.ttf */,
+				48053BA5266E60EA00CCE8A3 /* NunitoSans-BoldItalic.ttf */,
+				48053BA6266E60EA00CCE8A3 /* NunitoSans-ExtraLight.ttf */,
+				48053BA7266E60EA00CCE8A3 /* NunitoSans-Light.ttf */,
+				48053BA8266E60EA00CCE8A3 /* NunitoSans-BlackItalic.ttf */,
+				48053BA9266E60EA00CCE8A3 /* NunitoSans-ExtraBold.ttf */,
+				48053BAA266E60EA00CCE8A3 /* NunitoSans-Regular.ttf */,
+				48053BAB266E60EA00CCE8A3 /* NunitoSans-SemiBoldItalic.ttf */,
+				48053BAC266E60EA00CCE8A3 /* NunitoSans-Italic.ttf */,
+				48053BAD266E60EA00CCE8A3 /* NunitoSans-Bold.ttf */,
+				48053BAE266E60EA00CCE8A3 /* NunitoSans-SemiBold.ttf */,
+				48053BAF266E60EA00CCE8A3 /* NunitoSans-Black.ttf */,
+				48053BB0266E60EA00CCE8A3 /* NunitoSans-ExtraBoldItalic.ttf */,
+				48053BB1266E60EA00CCE8A3 /* nexa-slab-xbold.otf */,
+				48053BB2266E60EA00CCE8A3 /* NunitoSans-ExtraLightItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		48053BB3266E60EA00CCE8A3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				48053BB4266E60EA00CCE8A3 /* SDKProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		48053BB5266E60EA00CCE8A3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				48053BB6266E60EA00CCE8A3 /* SDKLanguageManager.swift */,
+				48053BB7266E60EA00CCE8A3 /* SDKColorManager.swift */,
+				48053BB8266E60EA00CCE8A3 /* AlertManager.swift */,
+				48053BB9266E60EA00CCE8A3 /* Extensions */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		48053BB9266E60EA00CCE8A3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				48053BBA266E60EA00CCE8A3 /* UIView+.swift */,
+				48053BBB266E60EA00CCE8A3 /* GradientLabel.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		654BC5829C40790602FB5A4CAA00A67A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02EF8C79152C7847DB732B465F04B392 /* Identify24.framework */,
+				A103AA7CB1323502F743D8FFEE01A3B3 /* Pods_Identify24_Example.framework */,
+				7FFE6E0810522B3FD180B6EB85F88FBB /* Pods_Identify24_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7264DA2A356A61185DB9F3FEE3D22AE2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C7CD9F4C78F48434F4626333F3C9335B /* Identify24.podspec */,
+				BB6CAC23D753133FFC3C7953428F6CEF /* LICENSE */,
+				A682A634283114C118C85328C609B1A0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		81E549AFF8ADC76329F53B58E776DBA8 /* Pods-Identify24_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C4FB53AB6658938EDBB385EE00413E09 /* Pods-Identify24_Example.modulemap */,
+				BE1CA794BC5D52AFC116481E895415AB /* Pods-Identify24_Example-acknowledgements.markdown */,
+				110DA8113870705103987C5D9A773219 /* Pods-Identify24_Example-acknowledgements.plist */,
+				9A6F5D5E31861FC17A38140D65608F6B /* Pods-Identify24_Example-dummy.m */,
+				8548EA077E28498AC5321D23F9D8340C /* Pods-Identify24_Example-frameworks.sh */,
+				0655337FBD2F546F64FB7ECB823E7AB6 /* Pods-Identify24_Example-Info.plist */,
+				1168530C49C0A4204A4A003A64E48899 /* Pods-Identify24_Example-umbrella.h */,
+				1D3D26755892AFE6CF50DF1C2B8AE8EB /* Pods-Identify24_Example.debug.xcconfig */,
+				4C2EFFB4AE64D2676A8207B8DC808B86 /* Pods-Identify24_Example.release.xcconfig */,
+			);
+			name = "Pods-Identify24_Example";
+			path = "Target Support Files/Pods-Identify24_Example";
+			sourceTree = "<group>";
+		};
+		8E32286A85CA1FBFCA38F953E40F316A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81E549AFF8ADC76329F53B58E776DBA8 /* Pods-Identify24_Example */,
+				B8AC0F13FE15EDDE816E66754877FB55 /* Pods-Identify24_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B8AC0F13FE15EDDE816E66754877FB55 /* Pods-Identify24_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18A74947CA524E92D091A37DCECCA66B /* Pods-Identify24_Tests.modulemap */,
+				393E68657B92208F00E8267DEAC56624 /* Pods-Identify24_Tests-acknowledgements.markdown */,
+				75EAF0B1ED371D531764C1313DF8EF73 /* Pods-Identify24_Tests-acknowledgements.plist */,
+				95462E0355388FF9B57A6D836F90E468 /* Pods-Identify24_Tests-dummy.m */,
+				CD1D71714F7F403C0175CFCA21560501 /* Pods-Identify24_Tests-Info.plist */,
+				624CED79147CBA63BEB6095B5525F9E3 /* Pods-Identify24_Tests-umbrella.h */,
+				C185C63F0CAA48A47E86DE43C336BB4C /* Pods-Identify24_Tests.debug.xcconfig */,
+				AB0266906F77A7102014C9ED0666ACA1 /* Pods-Identify24_Tests.release.xcconfig */,
+			);
+			name = "Pods-Identify24_Tests";
+			path = "Target Support Files/Pods-Identify24_Tests";
+			sourceTree = "<group>";
+		};
+		C24723EFEBA1B00B17BF5C85ACBCE39F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCE0C1CD852592AA0209E372A5562355 /* Identify24 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CCE0C1CD852592AA0209E372A5562355 /* Identify24 */ = {
+			isa = PBXGroup;
+			children = (
+				48053B87266E60EA00CCE8A3 /* Identify24iOSSDK */,
+				7264DA2A356A61185DB9F3FEE3D22AE2 /* Pod */,
+				FD086E014F97DFB5D41D114AACD45158 /* Support Files */,
+			);
+			name = Identify24;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C24723EFEBA1B00B17BF5C85ACBCE39F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				654BC5829C40790602FB5A4CAA00A67A /* Products */,
+				8E32286A85CA1FBFCA38F953E40F316A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD086E014F97DFB5D41D114AACD45158 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD7A7FDE894F7C3B1DF15B0FE237D102 /* Identify24.modulemap */,
+				8FE4F0A1F5C5B46A03D2740377C1DD6C /* Identify24-dummy.m */,
+				125B93EBBBEC11DFC83018289E43806E /* Identify24-Info.plist */,
+				78653510EF4908804343850411883861 /* Identify24-prefix.pch */,
+				B28BAE6DD3F75FBF6D6E39B6C35B4FB1 /* Identify24-umbrella.h */,
+				7299996150D98D2ADA37776503DD5C22 /* Identify24.debug.xcconfig */,
+				AB8FA7560ABE9DDFD87C01EC90C970D2 /* Identify24.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Identify24";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07B9D830E0CB9D86B2375AC779D6EF84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48053BE8266E60EA00CCE8A3 /* Identify24iOSSDK.h in Headers */,
+				478DAF071CA6F537DFC293659F290114 /* Identify24-umbrella.h in Headers */,
+				48053BC3266E60EA00CCE8A3 /* IdentifySDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A99A6555E7C23D7B04532CF5E4B941 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F7343E81E2BA664BFD111E7C32FEEA /* Pods-Identify24_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C9D591E2A57C0D156823C24D4AE115 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502ECB855F281E97EE7BBDA7B9DBF1C2 /* Pods-Identify24_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A00526924ACEDE554DE0FBC53B6DD37B /* Pods-Identify24_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3167384B3141A79EC4378ADA1784452 /* Build configuration list for PBXNativeTarget "Pods-Identify24_Tests" */;
+			buildPhases = (
+				37A99A6555E7C23D7B04532CF5E4B941 /* Headers */,
+				6E80AD8C0C01EFAB0842F3436AF8C5F9 /* Sources */,
+				EAFEE8D22FF6A26C063EF7F819D7FD6D /* Frameworks */,
+				B377FA20211392906ABE790B6FFA101A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				304D28AC3063603963FF782C30363C2D /* PBXTargetDependency */,
+			);
+			name = "Pods-Identify24_Tests";
+			productName = "Pods-Identify24_Tests";
+			productReference = 7FFE6E0810522B3FD180B6EB85F88FBB /* Pods_Identify24_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B468676AF46E2C5BE579CCADB9D7B368 /* Pods-Identify24_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796AFA7910806EA391E5516EA3D10BE4 /* Build configuration list for PBXNativeTarget "Pods-Identify24_Example" */;
+			buildPhases = (
+				39C9D591E2A57C0D156823C24D4AE115 /* Headers */,
+				1ED19FC2FE9C326DCC974594ECBAF61E /* Sources */,
+				430FE07D4A24E97B1A21537C6694D1EF /* Frameworks */,
+				AA46F93283C52B715013157F1B951F8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58153562584CCCBF9F9CB6C2BDDA80A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Identify24_Example";
+			productName = "Pods-Identify24_Example";
+			productReference = A103AA7CB1323502F743D8FFEE01A3B3 /* Pods_Identify24_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5D19B64F617FF8F9B2DD19CA593ABD9 /* Identify24 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5396572C6F0F8744F2078F5FCF2C35 /* Build configuration list for PBXNativeTarget "Identify24" */;
+			buildPhases = (
+				07B9D830E0CB9D86B2375AC779D6EF84 /* Headers */,
+				30EC272D886B10DDA0DA8D8F59C1392A /* Sources */,
+				41CD9422FC00E903B3E2AB313218B9B2 /* Frameworks */,
+				D8266DD983B8C548EC6B59F5741CC067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Identify24;
+			productName = Identify24;
+			productReference = 02EF8C79152C7847DB732B465F04B392 /* Identify24.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 654BC5829C40790602FB5A4CAA00A67A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5D19B64F617FF8F9B2DD19CA593ABD9 /* Identify24 */,
+				B468676AF46E2C5BE579CCADB9D7B368 /* Pods-Identify24_Example */,
+				A00526924ACEDE554DE0FBC53B6DD37B /* Pods-Identify24_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA46F93283C52B715013157F1B951F8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377FA20211392906ABE790B6FFA101A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8266DD983B8C548EC6B59F5741CC067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48053BDC266E60EA00CCE8A3 /* NunitoSans-Black.ttf in Resources */,
+				48053BD1266E60EA00CCE8A3 /* NunitoSans-LightItalic.ttf in Resources */,
+				48053BD2266E60EA00CCE8A3 /* NunitoSans-BoldItalic.ttf in Resources */,
+				48053BDD266E60EA00CCE8A3 /* NunitoSans-ExtraBoldItalic.ttf in Resources */,
+				48053BDF266E60EA00CCE8A3 /* NunitoSans-ExtraLightItalic.ttf in Resources */,
+				48053BDB266E60EA00CCE8A3 /* NunitoSans-SemiBold.ttf in Resources */,
+				48053BD3266E60EA00CCE8A3 /* NunitoSans-ExtraLight.ttf in Resources */,
+				48053BDA266E60EA00CCE8A3 /* NunitoSans-Bold.ttf in Resources */,
+				48053BD9266E60EA00CCE8A3 /* NunitoSans-Italic.ttf in Resources */,
+				48053BD7266E60EA00CCE8A3 /* NunitoSans-Regular.ttf in Resources */,
+				48053BDE266E60EA00CCE8A3 /* nexa-slab-xbold.otf in Resources */,
+				48053BD5266E60EA00CCE8A3 /* NunitoSans-BlackItalic.ttf in Resources */,
+				48053BD8266E60EA00CCE8A3 /* NunitoSans-SemiBoldItalic.ttf in Resources */,
+				48053BD6266E60EA00CCE8A3 /* NunitoSans-ExtraBold.ttf in Resources */,
+				48053BD4266E60EA00CCE8A3 /* NunitoSans-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ED19FC2FE9C326DCC974594ECBAF61E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C9088B0983B059709693C0CA72F80C /* Pods-Identify24_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EC272D886B10DDA0DA8D8F59C1392A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48053BCB266E60EA00CCE8A3 /* SocketResponser.swift in Sources */,
+				D056DA0C2F2BC7F32166DA725B978969 /* Identify24-dummy.m in Sources */,
+				48053BCA266E60EA00CCE8A3 /* PassportModel.swift in Sources */,
+				48053BE4266E60EA00CCE8A3 /* UIView+.swift in Sources */,
+				48053BE0266E60EA00CCE8A3 /* SDKProtocols.swift in Sources */,
+				48053BC8266E60EA00CCE8A3 /* NetworkRequests.swift in Sources */,
+				48053BE2266E60EA00CCE8A3 /* SDKColorManager.swift in Sources */,
+				48053BCD266E60EA00CCE8A3 /* RTCCustomFrameCapture.swift in Sources */,
+				48053BC4266E60EA00CCE8A3 /* Constant.swift in Sources */,
+				48053BE3266E60EA00CCE8A3 /* AlertManager.swift in Sources */,
+				48053BC7266E60EA00CCE8A3 /* Identify.swift in Sources */,
+				48053BCE266E60EA00CCE8A3 /* SignalingMessage.swift in Sources */,
+				48053BC6266E60EA00CCE8A3 /* SDKEnums.swift in Sources */,
+				48053BD0266E60EA00CCE8A3 /* CameraSession.swift in Sources */,
+				48053BCC266E60EA00CCE8A3 /* CameraFilter.swift in Sources */,
+				48053BC5266E60EA00CCE8A3 /* SDKClasses.swift in Sources */,
+				48053BC9266E60EA00CCE8A3 /* PassportUtil.swift in Sources */,
+				48053BE1266E60EA00CCE8A3 /* SDKLanguageManager.swift in Sources */,
+				48053BE5266E60EA00CCE8A3 /* GradientLabel.swift in Sources */,
+				48053BCF266E60EA00CCE8A3 /* WebRTCClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E80AD8C0C01EFAB0842F3436AF8C5F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2660698357DCA7CE4F4825FABA5E0185 /* Pods-Identify24_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		304D28AC3063603963FF782C30363C2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Identify24_Example";
+			target = B468676AF46E2C5BE579CCADB9D7B368 /* Pods-Identify24_Example */;
+			targetProxy = 377CA701F573D862E2E0B0359749C25C /* PBXContainerItemProxy */;
+		};
+		58153562584CCCBF9F9CB6C2BDDA80A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Identify24;
+			target = C5D19B64F617FF8F9B2DD19CA593ABD9 /* Identify24 */;
+			targetProxy = AA2624B8C50FB099775C5AFDD2B7965A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		45384F02048996F5E51F425CC501E74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C185C63F0CAA48A47E86DE43C336BB4C /* Pods-Identify24_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Identify24_Tests/Pods-Identify24_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Identify24_Tests/Pods-Identify24_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5537BCF2925D258A27137BA107117BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3D26755892AFE6CF50DF1C2B8AE8EB /* Pods-Identify24_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Identify24_Example/Pods-Identify24_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Identify24_Example/Pods-Identify24_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D2079B7E89370E561104572B767A2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB8FA7560ABE9DDFD87C01EC90C970D2 /* Identify24.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Identify24/Identify24-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Identify24/Identify24-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Identify24/Identify24.modulemap";
+				PRODUCT_MODULE_NAME = Identify24;
+				PRODUCT_NAME = Identify24;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E0FCC386EC334C2D60288CF17F2FE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7299996150D98D2ADA37776503DD5C22 /* Identify24.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Identify24/Identify24-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Identify24/Identify24-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Identify24/Identify24.modulemap";
+				PRODUCT_MODULE_NAME = Identify24;
+				PRODUCT_NAME = Identify24;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D1DA0D9DD80DAA1697A8B81D9ADFC937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2EFFB4AE64D2676A8207B8DC808B86 /* Pods-Identify24_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Identify24_Example/Pods-Identify24_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Identify24_Example/Pods-Identify24_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF190C9395BD0D1903C336135EBE73FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB0266906F77A7102014C9ED0666ACA1 /* Pods-Identify24_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Identify24_Tests/Pods-Identify24_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Identify24_Tests/Pods-Identify24_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796AFA7910806EA391E5516EA3D10BE4 /* Build configuration list for PBXNativeTarget "Pods-Identify24_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5537BCF2925D258A27137BA107117BC6 /* Debug */,
+				D1DA0D9DD80DAA1697A8B81D9ADFC937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3167384B3141A79EC4378ADA1784452 /* Build configuration list for PBXNativeTarget "Pods-Identify24_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45384F02048996F5E51F425CC501E74D /* Debug */,
+				FF190C9395BD0D1903C336135EBE73FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5396572C6F0F8744F2078F5FCF2C35 /* Build configuration list for PBXNativeTarget "Identify24" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0FCC386EC334C2D60288CF17F2FE4A /* Debug */,
+				5D2079B7E89370E561104572B767A2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Identify24",
+  "version": "0.1.0",
+  "summary": "A short description of Identify24.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/emir@beytekin.net/Identify24",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "emir@beytekin.net": "emir@beytekin.net"
+  },
+  "source": {
+    "git": "https://github.com/emir@beytekin.net/Identify24.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Identify24/Classes/**/*"
+}
